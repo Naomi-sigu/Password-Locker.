@@ -30,8 +30,6 @@ def generate_password(cls):
         
         size = 9
 
-
-
         alphanum = string.ascii_uppercase + string.digits + string.ascii_lowercase
 
 
