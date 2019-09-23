@@ -90,14 +90,14 @@ def main():
                                             print(
                                                 f"{user.first_name} {user.last_name} .....{user.username}")
                             else:
-                                    print("You dont seem to have any users saved yet")
+                                    print("You dont have any users saved yet")
                                     
                     elif cheat_code == 'Lu':
                                     print("Log into Password Locker Account")
                                     print("Enter the user name")
                                     username = input()
                                     if user_log_in(username,u_name) == "":
-                                        print("Please try again or create an account")
+                                        print("Please try again or create a new account")
                                     else:
                                         user_log_in(username,u_name)
                                         print(f'''{username} welcome to your Credentials\n
@@ -121,14 +121,14 @@ def main():
                                     print(
                                         f"Password.......{search_user.password}")
                             else:
-                                    print("That user does not exist")
+                                    print("That user does not exist in our system")
 
                     elif cheat_code == "ex":
-                            print("It was nice for  you having to use my program feel free to use it again  ")
+                            print("Thank you for using this application you are welcome to use it again  ")
                             break
                     else:
                             print(
-                                "I really didn't get that. Please use the cheat codes")
+                                "Please use the cheat codes for better understanding.")
 
 if __name__ == '__main__':
 
