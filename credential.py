@@ -1,6 +1,7 @@
 import string
 import pyperclip
 from random import choice
+
 class Credential:
 
     credential_list = []  
