@@ -55,11 +55,11 @@ def main():
 
     while True:
                     print(
-                        "Use these cheat codes to navigate through : yo - create a new user, lo - display users, wo -find a user,lol - log users ,ex -exit the users list ")
+                        "Use these cheat codes to navigate through : cn - create a new user, Du - display users, Fu -find a user, Lu - log users ,ex -exit the users list ")
 
                     cheat_code = input().lower()
 
-                    if cheat_code == 'yo':
+                    if cheat_code == 'cn':
                             print("New Credentials")
                             print("-"*10)
 
@@ -82,7 +82,7 @@ def main():
                             print(f"New User {f_name} {l_name} created")
                             print('\n')
 
-                    elif cheat_code == 'lo':
+                    elif cheat_code == 'Du':
 
                             if display_users():
                                     print("Here is a list of all your users")
@@ -92,7 +92,7 @@ def main():
                             else:
                                     print("You dont seem to have any users saved yet")
                                     
-                    elif cheat_code == 'lol':
+                    elif cheat_code == 'Lu':
                                     print("Log into Password Locker Account")
                                     print("Enter the user name")
                                     username = input()
@@ -105,7 +105,7 @@ def main():
                                         print("Enter the password")
                                         u_name = input()
 
-                    elif cheat_code == 'wo':
+                    elif cheat_code == 'Fu':
 
                             print("Enter the username you want to search for")
 
