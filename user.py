@@ -14,8 +14,6 @@ class User:
         self.username = name
         self.password = password
 
-        
-
     def save_user(self):
 
         '''
