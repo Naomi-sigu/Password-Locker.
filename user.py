@@ -1,4 +1,3 @@
-import pyperclip 
 from credential import Credential
 
 class User:
