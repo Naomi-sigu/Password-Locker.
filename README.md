@@ -19,7 +19,7 @@ In your terminal:
 
 ## Running the Application
 To run the application, in your terminal write the command below:
-*  $ python3.6 pass_locker.py
+*  $ python3.6 run.py
 
 ## Technologies Used
 * Python3.6
